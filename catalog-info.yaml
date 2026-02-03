@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "project-alpha"
+  description: "This repository is created automatically via Backstage."
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/developers"
