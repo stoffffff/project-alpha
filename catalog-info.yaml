@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: "project-alpha"
   description: "This repository is created automatically via Backstage."
+  annotations:
+    github.com/project-slug: 'stoffffff/project-alpha'
 spec:
   type: service
   lifecycle: experimental
